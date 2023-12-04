@@ -3,7 +3,8 @@ local ClientData = {
     Race = 'Human';
     Inventory = {};
     Rank = 'Human';
-
+    TutorialComplete = false;
+    
     Combat = {
         Moveset = nil;
         UnlockedSkills = {
@@ -17,5 +18,5 @@ local ClientData = {
         Breathing = {};
         Speed = {};
         Combat = {};
-    };
+    }
 }
