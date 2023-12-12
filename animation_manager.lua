@@ -11,8 +11,8 @@ do
 end
 
 function AnimationManager.ChangeAnimation(Character: Character, AnimationType: string)
-    if ( assert(table.find(ValidAnimationTypes, AnimationType)) or not rawget(ValidAnimationTypes, AnimationType) ) then return end
-    if (not Character or assert(not Character)) then returh end
+    if ( assert(not table.find(ValidAnimationTypes, AnimationType)) or not rawget(ValidAnimationTypes, AnimationType) ) then return end
+    if (not Character or assert(not Character)) then return end
 
 
 end
